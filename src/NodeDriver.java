@@ -6,14 +6,16 @@ public class NodeDriver {
         System.out.println("back of n: "+ n.getBack());
         System.out.println("front of n: " + n.getFront());
         System.out.println("data from n: " + n.getData());
-        a.setBack(b);
-        b.setFront(a);
+        n.setBack(a);
+        n.setFront(b);
         n.setData(10);
         System.out.println(a.toString());
-        System.out.println(a.equals(b));
+        System.out.println("a is equal to b: " + a.equals(b));
         System.out.println("new back of n: "+ n.getBack());
         System.out.println("new front of n: " + n.getFront());
         System.out.println("new data from n: " + n.getData());
+        a.setData(8);
+        System.out.println("a is equal to b: " + a.equals(b));
 
 
     }
