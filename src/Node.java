@@ -24,6 +24,9 @@
         public T getData(){
             return data;
         }
+        public void setData(T newData){ data = newData;}
+     public void setFront(Node newFront){ front = newFront;}
+     public void setBack(Node newBack){ back = newBack;}
         @Override
         public String toString() {
             return "Node: " + data.toString();
