@@ -1,4 +1,5 @@
 public class NodeDriver {
+    //FIXME: Maybe add a header, along with little explanations of each test?
     public static void main(String[] args) {
         Node a = new Node(4);
         Node b = new Node(8);
