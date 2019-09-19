@@ -1,7 +1,10 @@
- public class Node<T>{
+//FIXME: add header with project name, purpose, name, and date
+
+public class Node<T>{
         private T data;
         private Node front;
         private Node back;
+        //FIXME: Add comments with what the constructor/method takes it, and a proper name
 
         public Node(){
 
@@ -24,6 +27,7 @@
         public T getData(){
             return data;
         }
+        //FIXME: fix indentation and whitespace
         public void setData(T newData){ data = newData;}
      public void setFront(Node newFront){ front = newFront;}
      public void setBack(Node newBack){ back = newBack;}
