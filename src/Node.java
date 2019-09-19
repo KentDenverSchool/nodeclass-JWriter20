@@ -9,7 +9,6 @@ public class Node<T>{
         private T data;
         private Node front;
         private Node back;
-        //FIXME: Add comments with what the constructor/method takes it, and a proper name
 
         //empty constructor all values are null
         public Node(){
