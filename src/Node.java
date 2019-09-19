@@ -1,4 +1,11 @@
- public class Node<T>{
+/*
+ * Node.java
+ * This program creates a node class using the instance data "data" "front" and "back" and creates
+ * accessors and mutators.
+ * Date: 9/11/19
+ * On my honor: JW
+ */
+public class Node<T>{
         private T data;
         private Node front;
         private Node back;

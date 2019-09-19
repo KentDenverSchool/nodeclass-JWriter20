@@ -1,3 +1,9 @@
+/*
+ * NodeDriver.java
+ * This program tests the node class methods
+ * Date: 9/11/19
+ * On my honor: JW
+ */
 public class NodeDriver {
     public static void main(String[] args) {
         Node a = new Node(4);
